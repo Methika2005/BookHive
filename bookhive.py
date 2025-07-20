@@ -13,7 +13,6 @@ class BookHiveApp(tk.Tk):
         self.create_main_ui()
 
     def create_main_ui(self):
-        # --- Decorative Side Images ---
         img1 = Image.open("C:/Users/ADMIN/Downloads/book (2).jpg")
         img1 = img1.resize((300, 300))
         photo1 = ImageTk.PhotoImage(img1)

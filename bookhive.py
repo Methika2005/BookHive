@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 
-# ---------- BookHive App Class ----------
 class BookHiveApp(tk.Tk):
     def __init__(self):
         super().__init__()
